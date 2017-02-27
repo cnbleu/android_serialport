@@ -1,0 +1,9 @@
+include ':demo', ':library_serialport'
+project(':demo').projectDir = file('demo')
+
+include ':library_serialport_native'
+project(':library_serialport_native').projectDir = file('library_serialport_native')
+
+
+include ':library_serialport'
+project(':library_serialport').projectDir = file('library_serialport')

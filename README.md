@@ -1,0 +1,2 @@
+# Serialport SDK for Android
+
